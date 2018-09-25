@@ -21,7 +21,7 @@ def quickSort(arr):
     return qs(arr[1:i]) + [pivot] + qs(arr[i:])
 
 
-/*FOLLOWING CODE DOES NOT SORT IN PLACE*/
+#FOLLOWING CODE DOES NOT SORT IN PLACE
 def qs(arr):
     if arr == [] or len(arr) == 1:
         return arr
